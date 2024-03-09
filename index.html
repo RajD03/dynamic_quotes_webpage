@@ -5,15 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quotes</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-    <div id="quotes"></div>
-    <div id="author"></div>
-    <button id="newQ">new Quotes</button>
     <button id="tweeme">Tweet</button>
 
-
+    <div class="main_container">
+        <div class="inner_container">
+            <div class="box">
+                <div id="quotes"></div>
+                <div id="author"></div>
+            </div>
+            <div class="button_">
+                <button id="newQ">new Quotes</button>
+                <!-- <button id="tweeme">Tweet</button> -->
+            </div>
+        </div>
+    </div>
+    <!-- <div id="quotes"></div>
+    <div id="author"></div>
+    <button id="newQ">new Quotes</button>
+    <button id="tweeme">Tweet</button> -->
     <script>
         const quotes = document.getElementById("quotes")
         const author = document.getElementById("author")
