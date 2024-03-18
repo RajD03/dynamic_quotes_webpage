@@ -26,35 +26,71 @@ html {
 
 .main_container {
     background: rgb(241, 242, 238);
+    opacity: 1;
     height: inherit;
     display: flex;
+    background-image: linear-gradient(to right, rgb(186, 196, 169), rgb(200, 0, 255), rgb(21, 221, 232), rgb(199, 150, 150));
 }
 
 .inner_container {
-    border: black solid 2px;
+    border: rgb(19, 107, 175) solid 6px;
+    border-radius: 10rem;
+    opacity: 0.2;
     margin: auto;
+    padding: 4rem;
     width: 50%;
     height: 50%;
+    background-image: linear-gradient(to right, rgb(186, 196, 169), rgb(200, 0, 255), rgb(184, 207, 186), rgb(199, 150, 150));
+    font-size: 3rem;
+    font-family: "Pangolin", cursive;
+    color: rgb(0, 56, 209);
+    cursor: pointer;
+    height: fit-content;
+}
+
+.inner_container:hover {
+    opacity: 2;
 }
 
 .box {
-    display: flex;
-    flex-direction: column;
-    font-size: 3.5rem;
-    margin: 10rem;
-    width: 75%;
+    margin-bottom: 5rem;
+    width: 100%;
+    font-size: 3rem;
 }
 
 .button_ {
-    color: red;
-    /* align-items: last baseline; */
-    width: 100%;
     cursor: pointer;
     display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    width: fit-content;
+    margin: auto;
     justify-content: center;
+    font-size: 100%;
 }
 
-#newQ {
+button {
+    cursor: pointer;
+    border-radius: 2rem;
+    height: 100%;
     width: 100%;
-    margin-top: 8rem;
+    background-color: rgb(17, 164, 193);
+    padding: 1rem;
+    font-family: "Pangolin", cursive;
+}
+
+button:hover {
+    background-color: rgb(202, 207, 137);
+}
+
+.twitter {
+    height: 10rem;
+    width: 5rem;
+    margin: auto;
+}
+
+.comma {
+    height: 10rem;
+    width: 5rem;
+    opacity: 0.9;
 }
